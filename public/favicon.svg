@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <radialGradient id="sun" cx="38%" cy="32%" r="65%">
+      <stop offset="0%"   stop-color="#FFF176"/>
+      <stop offset="55%"  stop-color="#FFD740"/>
+      <stop offset="100%" stop-color="#FF8F00"/>
+    </radialGradient>
+  </defs>
+
+  <!-- 통통한 8방향 햇살 -->
+  <g stroke="#FFAB00" stroke-width="2.8" stroke-linecap="round">
+    <line x1="16" y1="1.5" x2="16" y2="6.5"/>
+    <line x1="16" y1="25.5" x2="16" y2="30.5"/>
+    <line x1="1.5" y1="16" x2="6.5" y2="16"/>
+    <line x1="25.5" y1="16" x2="30.5" y2="16"/>
+    <line x1="5.6"  y1="5.6"  x2="9.2"  y2="9.2"/>
+    <line x1="22.8" y1="22.8" x2="26.4" y2="26.4"/>
+    <line x1="26.4" y1="5.6"  x2="22.8" y2="9.2"/>
+    <line x1="9.2"  y1="22.8" x2="5.6"  y2="26.4"/>
+  </g>
+
+  <!-- 태양 몸통 -->
+  <circle cx="16" cy="16" r="9.5" fill="url(#sun)"/>
+
+  <!-- 하이라이트 (귀여운 광택) -->
+  <ellipse cx="13.2" cy="12.5" rx="2.8" ry="2" fill="white" opacity="0.35"/>
+</svg>
